@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="sq">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministria e Drejtësisë</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: white;
+        }
+        .header {
+            text-align: center;
+            padding: 20px 0;
+            border-bottom: 5px solid red;
+            position: relative;
+        }
+        .header img {
+            width: 250px;
+        }
+        .social-icons {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            display: flex;
+            gap: 10px;
+        }
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            filter: grayscale(100%);
+        }
+        .navbar {
+            background: white;
+            color: black;
+            display: flex;
+            justify-content: center;
+            padding: 15px;
+            font-weight: bold;
+            border-top: 3px solid black;
+            border-bottom: 3px solid red;
+        }
+        .navbar a {
+            color: black;
+            text-decoration: none;
+            margin: 0 15px;
+            padding: 5px 10px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            display: flex;
+            width: 80%;
+            margin: 20px auto;
+            align-items: flex-start;
+        }
+        .news {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .news-item {
+            border-bottom: 2px solid red;
+            padding: 15px 0;
+            font-size: 18px;
+        }
+        .logo-left {
+            flex: 0 0 250px;
+        }
+        .logo-left img {
+            width: 100%;
+        }
+        .flash-news {
+            background: red;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .process-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px auto;
+            width: 80%;
+            gap: 10px;
+            text-align: center;
+            padding: 10px;
+        }
+        .process-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 18%;
+            max-width: 150px;
+        }
+        .process-item img {
+            width: 200%;
+            max-width: 200px;
+        }
+        .process-item button {
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+        .footer {
+            background: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .footer-column {
+            width: 25%;
+            text-align: left;
+        }
+        .footer p {
+            margin: 5px 0;
+        }
+        .footer-bottom {
+            width: 100%;
+            text-align: center;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="IMAGENES/logoAlbano.PNG" alt="Ministria e Drejtësisë">
+        <div class="social-icons">
+     
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/30px-Facebook_f_logo_%282019%29.svg.png" alt="Facebook">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Mail_%28iOS%29.svg/30px-Mail_%28iOS%29.svg.png" alt="Email">
+        </div>
+    <div class="navbar">
+        <a href="#">Newsroom</a>
+        <a href="#">Ministria</a>
+        <a href="#">Program</a>
+        <a href="#">Programi i Transparences</a>
+        <a href="#">Prioritete</a>
+        <a href="#">Projekte</a>
+        <a href="#">Legjislacioni</a>
+        <a href="#">Regjistrat</a>
+        <a href="#">Dokumente</a>
+        <a href="#">Diaspora</a>
+        <a href="#">Konsultim Publik</a>
+    </div>
+    <div class="content">
+        <div class="logo-left">
+            <img src="IMAGENES/logoAlbano.PNG" alt="Logo">
+        </div>
+        <div class="news">
+            <div class="news-item">Shqipëria do të mirëpresë “World Law Congress Albania 2027”...</div>
+            <div class="news-item">Shqipëria hedh hapin e parë drejt drejtësisë digitale</div>
+            <div class="news-item">Njoftim mbi shtyrjen e datës së provimit të pranimit për plotës...</div>
+            <div class="news-item">Një dimension i ri në drejtësinë për të mitur: Prezantohet vers...</div>
+            <div class="news-item">Shqipëria ecën me hapa të sigurt drejt BE-së.</div>
+        </div>
+    </div>
+    <div class="flash-news">LAJME FLASH: Shqipëria hedh hapin e parë drejt drejtësisë digitale...</div>
+    <div class="process-container">
+        <div class="process-item">
+            <img src="IMAGENES/PROCESO1.PNG" alt="Procesi 1">
+            <button>Shiko më shumë</button>
+        </div>
+        <div class="process-item">
+            <img src="IMAGENES/PROCESO2.PNG" alt="Procesi 2">
+            <button>Shiko më shumë</button>
+        </div>
+        <div class="process-item">
+            <img src="IMAGENES/PROCESO3.PNG" alt="Procesi 3">
+            <button>Shiko më shumë</button>
+        </div>
+        <div class="process-item">
+            <img src="IMAGENES/PROCESO4.PNG" alt="Procesi 4">
+            <button>Shiko më shumë</button>
+        </div>
+        <div class="process-item">
+            <img src="IMAGENES/PROCESO5.PNG" alt="Procesi 5">
+            <button>Shiko më shumë</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-column">
+            <p>Ministria</p>
+            <p>Misioni</p>
+            <p>Ministri</p>
+            <p>Zëvendësministrat</p>
+            <p>Kabineti</p>
+        </div>
+        <div class="footer-column">
+            <p>Program</p>
+            <p>Preambul</p>
+            <p>Integrimi në Bashkimin Europian</p>
+            <p>Shqipëria Europiane, në rajon dhe në botë</p>
+        </div>
+        <div class="footer-column">
+            <p>Newsroom</p>
+            <p>Lajme</p>
+            <p>Deklarata për shtyp</p>
+            <p>Axhenda</p>
+        </div>
+        <div class="footer-column">
+            <p>Kontakt</p>
+            <p>Kontakto</p>
+            <p>WebMail</p>
+        </div>
+        <div class="footer-bottom">&copy; Ministria e Drejtësisë 2025 - Të gjitha të drejtat e rezervuara.</div>
+    </div>
+</body>
+</html>
+
+
